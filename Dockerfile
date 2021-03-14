@@ -15,6 +15,7 @@ RUN npm install
 COPY . .
 
 # Bind the port that the image will run on
+# need to check if it is localhost though
 EXPOSE 8080
 
 # Define the Docker image's behavior at runtime
